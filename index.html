@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/8bits.jpeg">
+    <title>Thomas Estanislau</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header>
+    <nav data-menu="suave">
+       <p class="helloWorld">Seja bem-vindo(a)</p>
+       <button data-menu="button" aria-controls="menu"></button>
+      <ul data-menu="list" id="menu">
+        <a href="#home">
+        <li>Home</li>
+      </a>
+        <a href="#sobre">
+          <li>Sobre</li>
+        </a>
+        <a href="#experiencia">
+          <li>Experiência</li>
+        </a>
+        <a href="#skills">
+          <li>Skills</li>
+        </a>
+      <a href="#projetos">
+        <li>Projetos</li>
+      </a>
+      </ul>
+    </nav>
+  </header>
+
+    <main>
+      <section class="main-section" id="home" >
+        
+        <div class="main-left">
+          <img src="./assets/jedi.jpeg" data-tilt>
+        </div>
+
+        <div class="main-right">
+          <h1>Olá, eu sou</h1>
+          <span class="writterName">Thomás Estanislau</span>
+          <br><br>
+          <span class="first-Text" id="multiText"></span>
+          <br><br>
+          <div class="main-btn">
+            <a href="https://www.linkedin.com/in/thomasestanislau" target="_blank">
+              <div class="main-btn-linkedin">
+                <img src="./assets/linkedin.png" alt="" />
+                <p>LinkedIn</p>
+              </div>
+            </a>
+            <a href="https://github.com/thomasestanislau" target="_blank">
+              <div class="main-btn-github">
+                <img src="./assets/github.png" alt="" />
+                <p>Github</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        
+      </section>
+      <section class="about" id="sobre" data-anime="js-scroll">
+        <div class="about-foto">
+          <img src="./assets/warlock.jpeg" data-tilt/>
+        </div>
+        <div class="about-description" >
+          <h1>Sobre</h1>
+          <h2>Recife, Pernambuco</h2>
+          <p>
+            Sou engenheiro de controle e automação apaixonado por tecnologia e otimizar processos.
+          </p>
+          <p>
+            Tenho experiência em gestão industrial e gestão de pessoas. Atualmente tenho atuado a frente de projetos envolvendo Business Intelligence e Power Platform (Power BI/Power Automate/Power Apps). 
+          </p>
+          <p>
+            Desenvolvo em paralelo projetos de Front-End e estou estudando para ser um desenvolvedor Full-Stack.
+          </p>
+          <div class="about-description-btn">
+            <a href="./assets/Resume_ThomasEstanislau.pdf" download="">
+              <div class="about-description-btn-curriculo">
+                <img src="./assets/download-da-nuvem.png" alt="" />
+                <p>Currículo</p>
+              </div>
+            </a>
+            <a
+              href="mailto: barrosthomas91@gmail.com.br?subject=Olá, cliquei no seu portfólio"
+              target="_blank"
+            >
+              <div class="about-description-btn-email">
+                <img src="./assets/email.png" alt="" />
+                <p>E-mail</p>
+              </div>
+            </a>
+          </div>
+          
+        </div>
+      </section>
+      <section class="experiencia" id="experiencia" data-anime="js-scroll">
+        <h1>Experiência</h1>
+        <div class="experiencia__wrapper">
+          <section class="experiencia__lugares">
+            <ul  data-tab="menu">
+              <li>Analista de Business Intelligence</li>
+              <li>Supervisor de Materiais</li>
+            </ul>
+          </section>
+          <div class="experiencia__descricao" data-tab="content">
+            <section data-anime="show-right">
+              <h2>Analista de Business Intelligence</h2>
+              <p>Freelancer</p>
+              <br>
+              <span>Abril/2022 - Atual</span>
+              <p>Consultoria, análise de dados e desenvolvimento de soluções em Business Intelligence, com foco em otimizar a gestão e performance dos KPIs dos clientes.
+                Coordenei equipe de desenvolvimento de aplicativos e participei da criação e entrega de dashboards personalizados e fluxos automatizados utilizando ferramentas de Power Platform
+              </p>
+            </section>
+            <section data-anime="show-right">
+              <h2>Supervisor de Materiais</h2>
+              <span>Dezembro/2018 - Abril/2022</span>
+              <br><br>
+              <p>
+                Três anos atuando como gestor industrial responsável por equipe de inventário, conciliação fiscal, despacho e recebimento de materiais oriundos da cadeia do aço.
+
+                Atuei com foco nas pessoas e no desenvolvendo das mesmas,  elaborei e supervisionei o cumprimento de procedimentos operacionais da área e realizei a gestão dos processos de materiais em atendimento aos requisitos de qualidade. Na oportunidade pude implementar sistemas de melhorias internas através do SAP ERP.
+
+                Durante o período de 3 anos, participei do programa corporativo anual de inovação e tecnologia da empresa, do qual, eu e minha equipe fomos para a final nas duas oportunidades.
+              </p>
+            </section>
+          
+        </div>
+        </section>
+        </div>
+      </section>
+
+      <section style='height: 80px;'class="experiencia" id="skills" data-anime="js-scroll">
+        <h1>Skills and Tools</h1>
+        <div class="skills-container">
+            <ul class="skills">
+              <li >HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Python</li>
+              <li>Power BI</li>
+              <li>Power Automate</li>
+              <li>Power Apps</li>
+              <li>SQL</li>
+            </ul>
+        </div>
+      </section>
+     
+
+      <section class="projetos" id="projetos" data-anime="js-scroll">
+        <h1>Projetos</h1>
+        <div class="projetos__wrapper">
+          <section class="projetos__card">
+            <a href="https://thomasestanislau.github.io/Landing-Page-Confeitaria/" target="_blank">
+            <img src="./assets/LandingPage.gif" alt="" class="projeto-img"/>
+          </a>
+            <h2>Landing Page Confeitaria</h2>
+            <p>
+              Um dos primeiros projetos desenvolvidos de forma autoral com foco no setor gastronômico. 
+            </p>
+            <span>Tecnologias usadas no projeto: HTML e CSS.</span>
+            <a href="https://thomasestanislau.github.io/Landing-Page-Confeitaria/" target="_blank"
+            >
+            <div class="projetos__card-button">
+            <img src="./assets/link.png" alt="">
+            Visualizar
+          </div>
+          </a>
+            
+          </section>
+          <section class="projetos__card">
+            <a href="https://thomasestanislau.github.io/website_frontend/" target="_blank">
+            <img src="./assets/Website2.gif" class="projeto-img"/>
+            </a>
+            <h2>Website</h2>
+            <p>
+              Website desenvolvido baseado em design do Adobe.
+            </p>
+            <span>Tecnologias usadas no projeto: HTML, CSS e JavaScript puro</span>
+            <a href="https://thomasestanislau.github.io/website_frontend/" target="_blank"
+              >
+              <div class="projetos__card-button">
+              <img src="./assets/link.png" alt="">
+              Visualizar
+            </div>
+            </a>
+          </section>
+          <section class="projetos__card">
+            <a href="https://thomasestanislau.github.io/New-Website/" target="_blank">
+            <img src="./assets/Website.gif" alt="" class="projeto-img"/>
+            </a>
+            <h2>Website básico</h2>
+            <p>
+              O projeto consiste em uma página de serviços de tecnologia contendo endereçamento via google maps (utilizando JS).
+            </p>
+            <span>Tecnologias usadas no projeto: HTML, CSS, JavaScript.</span>
+            <a href="https://thomasestanislau.github.io/New-Website/" target="_blank">
+              <div class="projetos__card-button">
+                <img src="./assets/link.png" alt="Imagem logo do pokémon representando meu projeto número 3">
+                Visualizar
+              </div>
+            </a>
+          </section>
+          <section class="projetos__card">
+            <img src="./assets/App.gif" class="projeto-img"/>
+         
+            <h2>Aplicativo para controle de estoque e gestão</h2>
+            <p>
+              Aplicativo desenvolvido de forma autoral para realizar a gestão e controle de estoque da empresa da qual empreendo.
+            </p>
+            <span>Tecnologias usadas no projeto: Power Platform</span>
+ 
+           
+   
+          </section>
+        </div>
+      </section>
+
+      <footer>
+        <p>Desenvolvido por</p><a href="https://www.linkedin.com/in/thomasestanislau" target="_blank"><span> Thomas B. Estanislau</span></a>
+      </footer>
+    </main>
+
+    <script src="./js/script.js" type="module"></script>
+    <script src="./js/modules/vanilla-tilt.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typingEffect = new Typed('#multiText', {
+        strings:  ["ANALISTA DE BUSINESS INTELLIGENCE", "DESENVOLVEDOR FRONT-END", "ASPIRANTE EM DESENVOLVIMENTO FULL-STACK"],
+        loop: true,
+        typeSpeed: 170,
+      })
+    </script>
+    
+  </body>
+</html>
